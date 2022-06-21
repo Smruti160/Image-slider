@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Image Slide</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Image Slide</h1>
+		<div class="images">
+			<img src="https://cdn3.dpmag.com/2021/07/Landscape-Tips-Mike-Mezeul-II.jpg" alt="img1" >
+			<img src="https://iso.500px.com/wp-content/uploads/2014/06/W4A2827-1-3000x2000.jpg" alt="img2" id="img2">
+			<img src="https://iso.500px.com/wp-content/uploads/2014/07/big-one.jpg" alt="img3">
+			<img src="https://images.ctfassets.net/u0haasspfa6q/2sMNoIuT9uGQjKd7UQ2SMQ/1bb98e383745b240920678ea2daa32e5/sell_landscape_photography_online" alt="img4">
+			<img src="https://photographylife.com/wp-content/uploads/2016/06/Mass.jpg" alt="img5">
+		</div>
+		<div class="slide left" onclick="side_slide(-1)">
+			<span class="fa fa-arrow-left" aria-hidden="true"></span>
+		</div>
+		<div class="slide right" onclick="side_slide(1)">
+			<span class="fa fa-arrow-right" aria-hidden="true"></span>
+		</div>
+		<div class="btn-sliders">
+            <span onclick="btn_slide(1)">1</span>
+            <span onclick="btn_slide(2)">2</span>
+            <span onclick="btn_slide(3)">3</span>
+            <span onclick="btn_slide(4)">4</span>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/scripts.js"></script>
+
+</body>
+</html>
